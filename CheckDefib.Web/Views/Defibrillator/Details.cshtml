@@ -1,0 +1,28 @@
+@model Defibrillator
+<partial name="_BreadCrumbs" model=@(new [] {
+    ("/","Home"),
+    ("/defibrillator","Defibrillator"),
+    ($"/defibrillator/details/{Model.Id}",$"{Model.Id}"),
+    ("","Details")
+}) />
+
+<h3 class="mt-4 mb-4">Defibrillator Details</h3>
+
+<div class="row">
+    <div class="col-8 card rounded shadow p-3">
+        <dl class="row">
+            <dt class="col-5">Name:</dt>
+            <dd class="col-7">@Model.DefibName</dd>
+
+            <dt class="col-5">Address:</dt>
+            <dd class="col-7">@Model.Address</dd>
+
+            <dt class="col-5">Postcode:</dt>
+            <dd class="col-7">@Model.Postcode</dd>
+
+            <dt class="col-5">Defibrillator Type</dt>
+            <dd class="col-7">@Model.DefibType</dd>
+
+        </dl>
+    </div>
+</div>

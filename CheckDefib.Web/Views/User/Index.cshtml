@@ -1,0 +1,43 @@
+@model IList<User>
+
+<partial name="_Breadcrumbs" model=@(new []{
+    ("/","Home"),
+    ("","Users")
+}) />
+
+<h3 class="mb-3">CheckDefib Users</h3>
+
+<a class="btn btn-sm btn-primary my-3" asp-controller="User" asp-action="Register"><i class="bi bi-plus me-"1></i>Create New User</a>     
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var s in Model) {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Username</td>
+                <td>@s.Email</td>
+                <td>@s.Role</td>
+                <td>
+                    <!-- Add View link -->
+                    <a title="view list of user" asp-action="Details" asp-route-id=@s.Id> <i class="bi bi-list"></i></a>  
+                    <!-- Add edit link  -->
+                    <a asp-action="UpdateProfile" asp-route-id=@s.Id><i class="bi bi-pen"></i></a>
+                    <!-- Add delete link -->
+                    <a  asp-action="Delete" asp-route-id=@s.Id><i class="bi bi-trash"></i></a>
+                </td>
+            </tr>
+        }        
+    </tbody>
+</table>
+
+
+

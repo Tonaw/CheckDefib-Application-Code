@@ -1,0 +1,35 @@
+{
+    "author": "a.mccaughey@gmail.com",
+    "classifications": [ "Web","MVC","Api" ],
+    "name": "Termoncs Clean Architecture CheckDefib",
+    "identity": "clean.termoncs.com",   
+    "shortName": "termonclean",           
+    "tags": {
+        "language": "C#"                  
+    },
+    "sourceName": "CheckDefib",      
+    "preferNameDirectory" : "true",
+    "primaryOutputs": [
+        {
+            "path": "CheckDefib.Core\\CheckDefib.Core.csproj"
+        },
+        {
+            "path": "CheckDefib.Data\\CheckDefib.Data.csproj"
+        },
+        {
+            "path": "CheckDefib.Test\\CheckDefib.Test.csproj"
+        },
+        {
+            "path": "CheckDefib.Web\\CheckDefib.Web.csproj"
+        }
+    ],
+    "sources": [
+        {
+          "modifiers": [
+            {
+                "exclude": ["**/[Bb]in/**", "**/[Oo]bj/**", ".CheckDefib.config/**/*", "**/*.lock.json", "**/.git/**", "**/.DS_Store/**", "**/*.db/**", "**/.vscode/**"]
+            }
+          ]
+        }
+      ]
+}

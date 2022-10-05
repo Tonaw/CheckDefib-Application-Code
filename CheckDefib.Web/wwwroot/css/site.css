@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.breadcrumb {
+  width: 97%;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+body {
+  margin-bottom: 60px;
+}

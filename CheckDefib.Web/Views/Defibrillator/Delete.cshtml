@@ -1,0 +1,40 @@
+@model Defibrillator
+
+<partial name="_BreadCrumbs" model=@(new [] {
+    ("/","Home"),
+    ("/defibrillator","Defibrillator"),
+    ($"/defibrillator/details/{Model.Id}",$"{Model.Id}"),
+    ("","Delete")
+}) />
+
+
+<h3 class="mt-4 mb-4">Delete Defibrillator</h3>
+
+<h4 class="mb-4">Are you sure you want to delete this Defibrillator?</h4>
+
+<div>
+    <div class="col card rounded shadow p-3">
+        <dl class="row">       
+            <dt class="col-5">Name:</dt>
+            <dd class="col-7">@Model.DefibName</dd>
+
+            <dt class="col-5">Address:</dt>
+            <dd class="col-7">@Model.Address</dd>
+
+            <dt class="col-5">Postcode:</dt>
+            <dd class="col-7">@Model.Postcode</dd>
+
+            <dt class="col-5">Defibrillator Type</dt>
+            <dd class="col-7">@Model.DefibType</dd>
+        </dl>
+    </div>
+
+    <div class="mt-4">
+        <form asp-action="DeleteConfirm" type="post">
+            <input type="hidden" asp-for="Id"/>
+            <input type="submit" value="Confirm" class="btn btn-danger" />
+            <a class="btn btn-secondary" asp-controller="Defibrillator" asp-action="Index">Cancel</a>
+        </form>
+    </div>
+    
+</div>

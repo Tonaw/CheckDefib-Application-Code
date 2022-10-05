@@ -1,0 +1,30 @@
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\bin\Debug\net6.0\CheckDefib.Core.deps.json
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\bin\Debug\net6.0\CheckDefib.Core.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\bin\Debug\net6.0\CheckDefib.Core.pdb
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.AssemblyInfo.cs
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\refint\CheckDefib.Core.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.pdb
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\ref\CheckDefib.Core.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\bin\Debug\net6.0\System.Device.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.csproj.CopyComplete
+C:\Users\USER\Documents\Final Project\App Design\Development\DotNetTemplate\CheckDefib.Core\bin\Debug\net6.0\System.Windows.Forms.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\bin\Debug\net6.0\CheckDefib.Core.deps.json
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\bin\Debug\net6.0\CheckDefib.Core.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\bin\Debug\net6.0\CheckDefib.Core.pdb
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\bin\Debug\net6.0\System.Device.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\bin\Debug\net6.0\System.Windows.Forms.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.AssemblyInfo.cs
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.csproj.CopyComplete
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\refint\CheckDefib.Core.dll
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\CheckDefib.Core.pdb
+C:\Users\USER\Documents\Final Project\App Design\Development\CheckDefib Application Code\CheckDefib.Core\obj\Debug\net6.0\ref\CheckDefib.Core.dll

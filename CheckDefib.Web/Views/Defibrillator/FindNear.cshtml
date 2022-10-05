@@ -1,0 +1,55 @@
+@model StaffLocation
+
+<body onload="myMap()">
+
+<partial name="_BreadCrumbs" model=@(new [] {
+    ("/","Home"),
+    ("/defibrillator","Defibrillator"),
+    ("","Find Closest Defibrillator")
+}) />
+
+<h3 class="mb-3">Closest Defibrillator</h3>
+
+    <div id="map" style="width: 100%; height: 400px"></div>
+
+
+    <script>
+
+         function myMap() {
+                if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition((position) => {
+
+                    var x = position.coords.latitude;
+                    var y = position.coords.longitude;
+
+                    
+
+
+                    var myLatlng = new google.maps.LatLng(x, y);
+                    var mapOptions = {
+                    zoom: 10,
+                    center: myLatlng
+                    };
+
+                    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                    var marker = new google.maps.Marker({
+                        position: myLatlng,
+                        title:"You",
+                    });
+
+
+
+                    // To add the marker to the map, call setMap();
+                    marker.setMap(map);
+            })} else {
+                alert("Geolocation is not supported by this browser.");
+                }
+
+        }
+
+    </script>  
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbSHTjeTjrRp3wXaxmcZJXk7Ijwe6gUew&callback=myMap"></script>
+</body>
