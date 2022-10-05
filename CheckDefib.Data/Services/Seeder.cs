@@ -19,7 +19,6 @@ namespace CheckDefib.Data.Services
 
             //add defibrillators
             svc.CreateDefibrillator("PBNI", "BT48 6QP", "Richmond Chambers, The Diamond, Londonderry", 54.99511, -7.32182, 0);
-            svc.CreateDefibrillator("Roe Park Resort", "BT49 9LB", "40 Drumrane Rd, Limavady", 55.027677, -7.03307, 0);
             svc.CreateDefibrillator("REACH ACROSS", "BT48 6PW", "10-14 BISHOP STREET WITHIN, LONDONDERRY", 54.9946025, -7.3235005, 0);
             svc.CreateDefibrillator("Apprentice Boys Memorial Hall", "BT48 6PJ", "Apprentice Boys Memorial Hall, Ground & 2nd Floor, 13 Society Street, Londonderry", 54.9952483, -7.3239316, 0);
             svc.CreateDefibrillator("Derry Central Library", "BT48 6PW", "35 Foyle Street, Londonderry", 54.9965964, -7.3185444, 0);
